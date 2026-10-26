@@ -1,0 +1,15 @@
+
+replicaCount: 1
+
+image:
+  repository: docker.io/rajabala69217/student-registration
+  tag: "1.0.0"
+  pullPolicy: IfNotPresent
+
+route:
+  enabled: true
+  host: ""
+
+service:
+  port: 8080
+  targetPort: 8080
